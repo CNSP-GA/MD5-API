@@ -1,0 +1,21 @@
+{
+  "name": "md5-api-cnsp",
+  "version": "0.0.1",
+  "description": "A very lightweight API that encrypts any text using the MD5 algorithm. Available at: https://md5.cnsp.ga",
+  "author": "CNSP",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.2.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/CNSP-GA/MD5-API"
+  },
+  "license": "GPL-3.0"
+}
